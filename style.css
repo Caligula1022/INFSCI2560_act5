@@ -1,0 +1,68 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: monospace,"Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 5em;
+  margin-top:0.1em;
+  margin-left:3em;
+  margin-right:2em;
+  background-color:rgb(255, 240, 214);
+  font-size:3em;
+/*   boarder-color:rgb(2,1,4); */
+}
+h1 {
+  font-family:cursive;
+  color: rgb(1,1,1);
+  font-size:75%;
+  margin-left:0.5em;
+}
+.h2 {
+  font-family: cursive;
+  font-size: 50%;
+  
+}
+.muffin-img {
+  margin-top:0.5em;
+  width:40%;
+  heigth:20%;
+}
+.img-text {
+  float:left; 
+/*   clear: both;  */
+/*   align="left"; */
+/*   width:40%; 
+  height:20%; */
+  
+}
+.p1 {
+  width:85%;
+  height:50%;
+  float:right;
+  
+  margin-right:-8em;
+  font-size:3.25vw;
+}
+
+
+
+.ing{
+  line-height:1.5em;
+  list-style-position: inside;
+/*   list-style-type: kannada; */
+  font-weight: bold;
+  font-size:33%;
+  width:50%;
+}
+.ins {
+  line-height:1.5em;
+  list-style-position: inside;
+  font-size:33%;
+  width:50%;
+}
+.source {
+  
+  font-size:30%;
+  float:right;
+}
+
+
