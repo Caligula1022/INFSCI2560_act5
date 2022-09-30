@@ -1,68 +1,236 @@
 /* CSS files add styling rules to your content */
 
+html {
+  font-size: 3em;
+}
+
 body {
   font-family: monospace,"Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 5em;
-  margin-top:0.1em;
-  margin-left:3em;
-  margin-right:2em;
+  /* margin: 5em; */
+  /* margin-top:0.1em; */
+  /* margin-left:3em; */
+  /* margin-right:2em; */
   background-color:rgb(255, 240, 214);
-  font-size:3em;
-/*   boarder-color:rgb(2,1,4); */
+  /* font-size: */
+  /* font-size: 100%; */
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  display:block;
+  /* text-align: center; */
+  
 }
+
+
+@media screen and (max-width: 769px) {
+  html {
+    font-size: 2.15em;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 1.5em;
+  }
+}
+
+
 h1 {
   font-family:cursive;
   color: rgb(1,1,1);
-  font-size:75%;
-  margin-left:0.5em;
+  font-size: 100%;
+  /* margin-left:0.5em; */
+  text-align: right;
+  margin-right: 5%;
+  /* display: flex; */
+  /* margin-top: 7%; */
+  /* margin-bottom: 7%; */
+  margin-left: 5%;
+  padding: -5%;
 }
+
+.header {
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  color:white;
+  /* display: inline-flex; */
+  /* width: 99%; */
+  /* height: 100%; */
+  /* margin-bottom: 8%; */
+  /* float: left; */
+  /* margin-bottom: %; */
+  /* text-align:right; */
+}
+
+.menu li {
+  /* border-color:#008f88; */
+  /* background-color: #008f88; */
+  /* border-style: solid; */
+  border-width: 0.1em;
+  display:inline;
+  font-size: 50%;
+  /* text-align: right; */
+  border-radius: 15%;
+  padding: 1%;
+  
+}
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #59e5de;
+  padding: 2%;
+  border-radius: 15%;
+}
+
+
+
+.dropbtn {
+  background-color: rgb(255, 240, 214);
+  color: rgb(4, 4, 4);
+  font-size: 80%;
+  /* padding: 15px; */
+  padding-left: 55%;
+  padding-right: 55%;
+  padding-top: 45%;
+  padding-bottom: 45%;
+  margin-left: 70%;
+  border:none;
+  cursor: pointer;
+  border-radius: 15%;
+  font-family: monospace,"Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 75%;
+  background-color: rgb(255, 240, 214);
+  min-width: 200%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size: 50%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10%;
+  text-decoration:none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #9bdded;
+  color: black;
+}
+
+
+@media screen and (max-width: 769px) {
+  .menu li {
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 769px) {
+  .dropbtn {
+    display: none;
+  }
+  
+}
+
 .h2 {
   font-family: cursive;
   font-size: 50%;
-  
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+
 }
 .muffin-img {
-  margin-top:0.5em;
-  width:40%;
-  heigth:20%;
+  /* margin-top:0.5em; */
+  /* width:50%; */
+  max-width: 100%;
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  vertical-align:bottom;
+  /* heigth:20%; */
 }
+
 .img-text {
-  float:left; 
-/*   clear: both;  */
-/*   align="left"; */
-/*   width:40%; 
-  height:20%; */
-  
+
+  font-size: 100%;
+  max-width: 100%;
+  border-color:rgb(244, 62, 17);
+  border-style: solid;
+  border-width: 0.1em;
+  text-align: center;
 }
 .p1 {
-  width:85%;
-  height:50%;
-  float:right;
-  
-  margin-right:-8em;
-  font-size:3.25vw;
+ 
+  font-size:100%;
+  border-color:rgb(72, 23, 220);
+  border-style: solid;
+  border-width: 0.1em;
+  text-align: center;
 }
 
 
 
 .ing{
   line-height:1.5em;
-  list-style-position: inside;
+  /* list-style-position:inside; */
 /*   list-style-type: kannada; */
   font-weight: bold;
-  font-size:33%;
-  width:50%;
+  font-size:35%;
+  /* width:50%; */
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  text-align:left;
+  margin-left: 15%;
+  margin-right: 15%;
+  /* margin-left:2%; */
 }
 .ins {
   line-height:1.5em;
-  list-style-position: inside;
-  font-size:33%;
-  width:50%;
+  list-style-position:inside;
+  font-size:35%;
+  /* width:50%; */
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  text-align: left;
+  /* width: auto; */
+  margin-left: 15%;
+  margin-right: 15%;
+  
 }
 .source {
+  font-size:25%;
+  /* float:right; */
+  border-color:rgb(48, 244, 71);
+  border-style: solid;
+  border-width: 0.1em;
+  text-align: right;
   
-  font-size:30%;
-  float:right;
 }
 
 
